@@ -1,0 +1,6 @@
+# Deaths allowed before a gem breaks (before extra lives)
+base-lives: 5
+# Max extra lives from Energy items (stacks)
+max-extra-lives: 5
+# Kills needed (while broken) to fully heal a gem
+kills-to-heal: 5

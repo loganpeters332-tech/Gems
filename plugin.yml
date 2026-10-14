@@ -1,0 +1,21 @@
+name: GemsPlugin
+version: 2.1.0
+main: com.example.gems.GemsPlugin
+api-version: '1.21'
+description: Custom gems with abilities, lives, breaking, energy stealing and Gold gems.
+commands:
+  ability1:
+    description: Use your gem's first ability
+    usage: /ability1
+  ability2:
+    description: Use your gem's second ability
+    usage: /ability2
+  ability3:
+    description: Toggle the Gold gem's punch ability
+    usage: /ability3
+  gem:
+    description: Gem admin/info command
+    usage: /gem <give|info|reset> ...
+permissions:
+  gems.admin:
+    default: op
